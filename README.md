@@ -71,7 +71,6 @@ I enjoy designing systems that are not just functional, but resilient, maintaina
 - Cloud Security
 - Infrastructure as Code
 
-> Replace this section with your actual certifications, coursework, or in-progress study paths.
 
 ---
 
