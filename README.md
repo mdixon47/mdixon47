@@ -76,8 +76,8 @@ I enjoy designing systems that are not just functional, but resilient, maintaina
 
 ## Connect With Me
 
-- GitHub: [[https://github.com/yourusername](https://github.com/mdixon47)]()
-- LinkedIn: [https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/malik-dixon/)
+- GitHub: [https://github.com/mdixon47]
+- LinkedIn: [https://www.linkedin.com/in/malik-dixon/]
 ---
 
 ## Profile Motto
