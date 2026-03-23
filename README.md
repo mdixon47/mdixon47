@@ -51,61 +51,7 @@ I enjoy designing systems that are not just functional, but resilient, maintaina
 
 ## Featured Projects
 
-### 1. Secure CI/CD Pipeline for Containerized Apps
-**Mock Project**  
-Designed a GitHub Actions pipeline that builds, tests, scans, and deploys containerized applications with integrated security checks.
-
-**Highlights**
-- Automated build and test workflow
-- Container image scanning before deployment
-- Secrets handling through secure environment configuration
-- Deployment gates for safer releases
-
-**Repo:** [secure-cicd-pipeline](https://github.com/yourusername/secure-cicd-pipeline)
-
----
-
-### 2. AWS Multi-Environment Terraform Infrastructure
-**Mock Project**  
-Built reusable Terraform modules to provision cloud infrastructure across dev, test, and production environments.
-
-**Highlights**
-- Modular VPC, IAM, compute, and storage design
-- Environment separation and reusable variables
-- Remote state management
-- Infrastructure consistency across teams
-
-**Repo:** [aws-terraform-foundation](https://github.com/yourusername/aws-terraform-foundation)
-
----
-
-### 3. DevSecOps Pipeline with Policy Checks
-**Mock Project**  
-Created a DevSecOps workflow that embeds code quality, IaC checks, dependency scanning, and policy validation into delivery pipelines.
-
-**Highlights**
-- Shift-left security validation
-- Static analysis and dependency review
-- Infrastructure-as-code misconfiguration checks
-- Policy enforcement before merge/deploy
-
-**Repo:** [devsecops-policy-pipeline](https://github.com/yourusername/devsecops-policy-pipeline)
-
----
-
-### 4. Cloud Monitoring and Incident Visibility Dashboard
-**Mock Project**  
-Implemented centralized monitoring and alerting for cloud workloads to improve system health tracking and operational response.
-
-**Highlights**
-- Metrics, logs, and alerting visibility
-- Dashboarding for service health
-- Incident-driven notification workflow
-- Improved troubleshooting and observability
-
-**Repo:** [cloud-observability-lab](https://github.com/yourusername/cloud-observability-lab)
-
----
+- In process 
 
 ## Current Focus
 
