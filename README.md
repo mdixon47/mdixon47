@@ -51,7 +51,19 @@ I enjoy designing systems that are not just functional, but resilient, maintaina
 
 ## Featured Projects
 
-- In process 
+### 1. Operation Aegis: Docker-Driven DevSecOps Security Pipeline  
+**DSB Capstone Project**  
+Built a GitHub Actions-based DevSecOps pipeline for a simulated fintech platform, using Docker across every testing stage to automate security checks from pull request to staging deployment.
+
+**Highlights**
+- Dockerized unit, integration, smoke, and DAST testing
+- Automated SAST, SCA, secrets scanning, and IaC/config scanning
+- GitHub Actions workflows for PR gates, staging validation, and nightly audits
+- Production and test image separation for cleaner, safer deployments
+- Security enforcement built directly into CI/CD for faster, safer releases
+
+**Repo:** [operation-aegis](https://github.com/mdixon47/operation-aegis)
+**Story** [operation-aegis](https://mdixondev62.hashnode.dev/how-i-built-a-docker-tested-devsecops-pipeline-in-github-actions)
 
 ## Current Focus
 
