@@ -76,7 +76,7 @@ Built a GitHub Actions-based DevSecOps pipeline for a simulated fintech platform
 
 ## Certifications & Learning
 
-- AWS
+- AWS Certified Cloud Practitioner
 - Azure
 - DevOps Engineering
 - DevSecOps Practices
