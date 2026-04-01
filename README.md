@@ -65,6 +65,33 @@ Built a GitHub Actions-based DevSecOps pipeline for a simulated fintech platform
 **Repo:** [operation-aegis](https://github.com/mdixon47/operation-aegis)
 **Story** [operation-aegis](https://mdixondev62.hashnode.dev/how-i-built-a-docker-tested-devsecops-pipeline-in-github-actions)
 
+### 2. I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me
+**DSB Capstone Project**
+A DSB capstone project that inventories AWS compute and storage resources using boto3, authenticates with temporary credentials only, handles API throttling with retries and pacing, emits structured logs for every AWS API call, stores compliance findings, and exposes an API that can be validated with Postman.
+
+**Highlights**
+- Built AuditTrail SDK, a DSB capstone project for secure AWS compliance auditing
+- Used Terraform to provision the full environment and keep it visible in the AWS Console
+- Used boto3 to inventory AWS resources such as EC2, EBS, S3, and Lambda
+- Enforced temporary credentials only with GitHub Actions OIDC and role-based access
+- Avoided static AWS keys completely
+- Added retry logic, pacing, and backoff to handle API throttling safely
+- Implemented structured JSON logging for every API call
+- Created the ability to audit the audit through logging and cloud-side visibility
+- Added API endpoints for triggering audits and retrieving results
+- Integrated Postman for API validation and operational testing
+- Stored compliance findings for review and reporting
+- Solved real-world IAM and deployment issues, including:
+- Security Hub AccessDeniedException
+- corrected s3:GetBucketPublicAccessBlock permission
+- DynamoDB GSI index permissions
+- Describe* actions requiring Resource: "*"
+- OIDC IAM bootstrapping for Terraform CI/CD
+- Demonstrated practical skills in AWS, IAM, Terraform, Python, API security, and DevSecOps
+
+**Repo:** [Project Repo](https://github.com/mdixon47/audittrail-sdk)
+**Story** [The Story](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
+
 ## Current Focus
 
 - Strengthening cloud security engineering skills
