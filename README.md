@@ -46,7 +46,7 @@ I enjoy designing systems that are not just functional, but resilient, maintaina
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-[![Trivy Security Scan](https://github.com/OWNER/REPOSITORY/actions/workflows/trivy.yml/badge.svg)](https://github.com/OWNER/REPOSITORY/actions/workflows/trivy.yml)
+[![Trivy Security Scan](https://github.com/malikdixon/my-app/actions/workflows/trivy.yml/badge.svg)](https://github.com/malikdixon/my-app/actions/workflows/trivy.yml)
 
 ---
 
