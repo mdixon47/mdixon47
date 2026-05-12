@@ -119,8 +119,8 @@ Modern cloud security is not just about protecting systems; it is about building
 
 ### I’m excited to keep building projects that connect cloud, security, and automation in practical ways.
 
-**Repo:** [Project Repo]([https://github.com/mdixon47/project-sentinel-terraform])
-**Story** [My Hashnode Blog](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-capstone-in-cloud-native-security-automation)
+**Repo:** [Project Repo](https://github.com/mdixon47/project-sentinel-terraform)
+**Story:** [My Hashnode Blog](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-capstone-in-cloud-native-security-automation)
 
 
 ### 4. CloudMart Secure Web Assets Pipeline: From Cloud Support Lab to DevSecOps Project
