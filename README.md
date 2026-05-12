@@ -64,7 +64,7 @@ Built a GitHub Actions-based DevSecOps pipeline for a simulated fintech platform
 - Security enforcement built directly into CI/CD for faster, safer releases
 
 **Repo:** [operation-aegis](https://github.com/mdixon47/operation-aegis)
-**Story** [operation-aegis](https://mdixondev62.hashnode.dev/how-i-built-a-docker-tested-devsecops-pipeline-in-github-actions)
+**Story** [My Hashnode Blog](https://mdixondev62.hashnode.dev/how-i-built-a-docker-tested-devsecops-pipeline-in-github-actions)
 
 ### 2. I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me
 **DSB Capstone Project**
@@ -91,7 +91,7 @@ A DSB capstone project that inventories AWS compute and storage resources using 
 - Demonstrated practical skills in AWS, IAM, Terraform, Python, API security, and DevSecOps
 
 **Repo:** [Project Repo](https://github.com/mdixon47/audittrail-sdk)
-**Story** [The Story](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
+**Story** [My Hashnode Blog](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
 
 ## 3. Project Sentinel, a DSB capstone focused on cloud-native security automation.
 
