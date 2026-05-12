@@ -95,6 +95,7 @@ A DSB capstone project that inventories AWS compute and storage resources using 
 
 ### 3. CloudMart Secure Web Assets Pipeline: From Cloud Support Lab to DevSecOps Project
 ** LUIT Academy Project **
+
 I completed a Level Up In Tech Academy project and pushed it further into DevSecOps. The original LUIT Academy simulation focused on a very real cloud problem: an e-commerce company, CloudMart, hosts its website assets on Amazon S3, but customers are seeing broken product images and AccessDenied errors. That alone is a valuable cloud support exercise because it covers S3 static website hosting, IAM and bucket policies, public access controls, troubleshooting 403 AccessDenied errors, and connecting technical issues to business impact.
 
 But I wanted to take it one step further. Instead of fixing the issue manually in the AWS Console, I rebuilt the project as a DevSecOps-style deployment pipeline — the **CloudMart Secure Web Assets Pipeline**.
@@ -110,6 +111,9 @@ But I wanted to take it one step further. Instead of fixing the issue manually i
 - **Documentation and audit evidence** — Security exceptions, validation reports, and troubleshooting notes were added to make the project easier to explain in an interview or portfolio review.
 
 The biggest lesson: a cloud engineer does not just fix access — a cloud engineer designs a system that prevents the same access problem from coming back.
+
+**Repo:** [Project Repo](https://github.com/mdixon47/aws-cloudmart-secure-web-assets)
+**Story** [The Story](https://s3accessdeniedtodevsecops.hashnode.dev/from-s3-accessdenied-to-devsecops-building-the-cloudmart-secure-web-assets-pipeline)
 
 ## Current Focus
 
