@@ -93,7 +93,37 @@ A DSB capstone project that inventories AWS compute and storage resources using 
 **Repo:** [Project Repo](https://github.com/mdixon47/audittrail-sdk)
 **Story** [The Story](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
 
-### 3. CloudMart Secure Web Assets Pipeline: From Cloud Support Lab to DevSecOps Project
+## 3. Project Sentinel, a DSB capstone focused on cloud-native security automation.
+
+This project pushed me to think beyond just finding security issues and to focus on building a system that can automatically detect, respond, and provide visibility.
+
+Project Sentinel was built around a simple idea:
+
+Cloud security should not depend only on manual review. It should be able to react in real time.
+
+### What the project focused on:
+- Detection using event-driven monitoring
+- Remediation through automated serverless response
+- Observability with logs, alerts, and dashboards
+- Governance using Infrastructure as Code and Policy as Code
+- CI/CD enforcement with GitHub Actions to validate Terraform, scan for misconfigurations, and enforce policy checks before deployment
+
+### What I learned most:
+Security is stronger when it is designed as a connected system. Detection without remediation creates noise. Remediation without observability creates blind spots. Governance without automation does not scale. Not to mention that secure delivery gets even stronger when GitHub Actions helps enforce checks before changes ever reach the cloud.
+
+### This project helped me strengthen my understanding of:
+AWS, Terraform, GitHub Actions, serverless security automation, CloudTrail, EventBridge, Lambda, CloudWatch, and policy enforcement in DevSecOps workflows.
+
+### The biggest takeaway:
+Modern cloud security is not just about protecting systems; it is about building systems that can protect themselves faster, more consistently, and more transparently.
+
+### I’m excited to keep building projects that connect cloud, security, and automation in practical ways.
+
+**Repo:** [Project Repo]([https://github.com/mdixon47/project-sentinel-terraform])
+**Story** [My Hashnode Blog](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-capstone-in-cloud-native-security-automation)
+
+
+### 4. CloudMart Secure Web Assets Pipeline: From Cloud Support Lab to DevSecOps Project
 ** LUIT Academy Project **
 
 I completed a Level Up In Tech Academy project and pushed it further into DevSecOps. The original LUIT Academy simulation focused on a very real cloud problem: an e-commerce company, CloudMart, hosts its website assets on Amazon S3, but customers are seeing broken product images and AccessDenied errors. That alone is a valuable cloud support exercise because it covers S3 static website hosting, IAM and bucket policies, public access controls, troubleshooting 403 AccessDenied errors, and connecting technical issues to business impact.
