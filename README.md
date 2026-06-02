@@ -1,185 +1,94 @@
-# Hi, I'm Malik Dixon 👋
-
-### Cloud Engineering | DevOps | DevSecOps
-
-I build secure, scalable, and automated cloud solutions with a focus on reliability, security, and clean delivery pipelines. My interests sit at the intersection of **cloud infrastructure, CI/CD, infrastructure as code, observability, and security-first engineering**.
-
-I enjoy designing systems that are not just functional, but resilient, maintainable, and production-ready.
-
----
-
-## About Me
-
-- Cloud-focused engineer with interests in **AWS, Azure, DevOps, and DevSecOps**
-- Passionate about **automation, security, infrastructure as code, and platform reliability**
-- Interested in building solutions that improve **developer experience, governance, and deployment speed**
-- Continuously learning and exploring modern cloud-native tooling and best practices
-
----
-
-## What I Work On
-
-- Cloud infrastructure design and deployment
-- CI/CD pipeline automation
-- Infrastructure as Code with Terraform and CloudFormation
-- Containerized application delivery
-- Security controls in DevOps pipelines
-- Monitoring, logging, and operational visibility
-- Identity, access, and secrets management
-
----
-
-## Tech Stack
-
-### Cloud
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-### DevOps & IaC
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
-![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### Security & DevSecOps
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
-
----
-
 ## Featured Projects
 
 ### 1. Operation Aegis: Docker-Driven DevSecOps Security Pipeline  
-**DSB Capstone Project**  
-Built a GitHub Actions-based DevSecOps pipeline for a simulated fintech platform, using Docker across every testing stage to automate security checks from pull request to staging deployment.
-
-**Highlights**
-- Dockerized unit, integration, smoke, and DAST testing
-- Automated SAST, SCA, secrets scanning, and IaC/config scanning
-- GitHub Actions workflows for PR gates, staging validation, and nightly audits
-- Production and test image separation for cleaner, safer deployments
-- Security enforcement built directly into CI/CD for faster, safer releases
-
-**Repo:** [operation-aegis](https://github.com/mdixon47/operation-aegis)
-**Story** [My Hashnode Blog](https://mdixondev62.hashnode.dev/how-i-built-a-docker-tested-devsecops-pipeline-in-github-actions)
-
-### 2. I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me
 **DSB Capstone Project**
-A DSB capstone project that inventories AWS compute and storage resources using boto3, authenticates with temporary credentials only, handles API throttling with retries and pacing, emits structured logs for every AWS API call, stores compliance findings, and exposes an API that can be validated with Postman.
 
-**Highlights**
-- Built AuditTrail SDK, a DSB capstone project for secure AWS compliance auditing
-- Used Terraform to provision the full environment and keep it visible in the AWS Console
-- Used boto3 to inventory AWS resources such as EC2, EBS, S3, and Lambda
-- Enforced temporary credentials only with GitHub Actions OIDC and role-based access
-- Avoided static AWS keys completely
-- Added retry logic, pacing, and backoff to handle API throttling safely
-- Implemented structured JSON logging for every API call
-- Created the ability to audit the audit through logging and cloud-side visibility
-- Added API endpoints for triggering audits and retrieving results
-- Integrated Postman for API validation and operational testing
-- Stored compliance findings for review and reporting
-- Solved real-world IAM and deployment issues, including:
-- Security Hub AccessDeniedException
-- corrected s3:GetBucketPublicAccessBlock permission
-- DynamoDB GSI index permissions
-- Describe* actions requiring Resource: "*"
-- OIDC IAM bootstrapping for Terraform CI/CD
-- Demonstrated practical skills in AWS, IAM, Terraform, Python, API security, and DevSecOps
+Built a Docker-based DevSecOps pipeline for a simulated fintech platform, using GitHub Actions to automate security checks from pull request to staging deployment.
 
-**Repo:** [Project Repo](https://github.com/mdixon47/audittrail-sdk)
-**Story** [My Hashnode Blog](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
+**What it does**
+- Runs Dockerized unit, integration, smoke, and DAST testing
+- Automates SAST, SCA, secrets scanning, and IaC/config scanning
+- Enforces PR gates, staging validation, and nightly security audits
+- Separates production and test images for safer deployment workflows
+- Builds security directly into CI/CD to support faster, safer releases
 
-## 3. Project Sentinel, a DSB capstone focused on cloud-native security automation.
+**Skills demonstrated:** Docker, GitHub Actions, DevSecOps, CI/CD, SAST, DAST, SCA, secure deployment workflows
 
-This project pushed me to think beyond just finding security issues and to focus on building a system that can automatically detect, respond, and provide visibility.
-
-Project Sentinel was built around a simple idea:
-
-Cloud security should not depend only on manual review. It should be able to react in real time.
-
-### What the project focused on:
-- Detection using event-driven monitoring
-- Remediation through automated serverless response
-- Observability with logs, alerts, and dashboards
-- Governance using Infrastructure as Code and Policy as Code
-- CI/CD enforcement with GitHub Actions to validate Terraform, scan for misconfigurations, and enforce policy checks before deployment
-
-### What I learned most:
-Security is stronger when it is designed as a connected system. Detection without remediation creates noise. Remediation without observability creates blind spots. Governance without automation does not scale. Not to mention that secure delivery gets even stronger when GitHub Actions helps enforce checks before changes ever reach the cloud.
-
-### This project helped me strengthen my understanding of:
-AWS, Terraform, GitHub Actions, serverless security automation, CloudTrail, EventBridge, Lambda, CloudWatch, and policy enforcement in DevSecOps workflows.
-
-### The biggest takeaway:
-Modern cloud security is not just about protecting systems; it is about building systems that can protect themselves faster, more consistently, and more transparently.
-
-### I’m excited to keep building projects that connect cloud, security, and automation in practical ways.
-
-**Repo:** [Project Repo](https://github.com/mdixon47/project-sentinel-terraform)
-**Story:** [My Hashnode Blog](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-capstone-in-cloud-native-security-automation)
-
-
-### 4. CloudMart Secure Web Assets Pipeline: From Cloud Support Lab to DevSecOps Project
-** LUIT Academy Project **
-
-I completed a Level Up In Tech Academy project and pushed it further into DevSecOps. The original LUIT Academy simulation focused on a very real cloud problem: an e-commerce company, CloudMart, hosts its website assets on Amazon S3, but customers are seeing broken product images and AccessDenied errors. That alone is a valuable cloud support exercise because it covers S3 static website hosting, IAM and bucket policies, public access controls, troubleshooting 403 AccessDenied errors, and connecting technical issues to business impact.
-
-But I wanted to take it one step further. Instead of fixing the issue manually in the AWS Console, I rebuilt the project as a DevSecOps-style deployment pipeline — the **CloudMart Secure Web Assets Pipeline**.
-
-## Highlights
-
-- **AWS CloudFormation** — Infrastructure as Code for repeatable S3 website deployment.
-- **GitHub Actions** — Automated CI/CD pipeline for validation, deployment, and asset syncing.
-- **cfn-lint + Checkov + Snyk** — Security gates to scan infrastructure before deployment.
-- **Least-privilege IAM thinking** — Public read access is intentionally limited to website assets only.
-- **Post-deployment validation** — Automated checks confirm the homepage and product images return HTTP 200.
-- **Observability and metrics planning** — Datadog-ready monitoring for uptime, response status, deployment health, and error rate.
-- **Documentation and audit evidence** — Security exceptions, validation reports, and troubleshooting notes were added to make the project easier to explain in an interview or portfolio review.
-
-The biggest lesson: a cloud engineer does not just fix access — a cloud engineer designs a system that prevents the same access problem from coming back.
-
-**Repo:** [Project Repo](https://github.com/mdixon47/aws-cloudmart-secure-web-assets)
-**Story** [The Story](https://s3accessdeniedtodevsecops.hashnode.dev/from-s3-accessdenied-to-devsecops-building-the-cloudmart-secure-web-assets-pipeline)
-
-## Current Focus
-
-- Strengthening cloud security engineering skills
-- Building production-style DevOps/DevSecOps portfolio projects
-- Expanding expertise in platform automation and reliability
-- Exploring scalable cloud architecture patterns
+**Repo:** [operation-aegis](https://github.com/mdixon47/operation-aegis)  
+**Story:** [How I Built a Docker-Tested DevSecOps Pipeline in GitHub Actions](https://mdixondev62.hashnode.dev/how-i-built-a-docker-tested-devsecops-pipeline-in-github-actions)
 
 ---
 
-## Certifications & Learning
+### 2. AuditTrail SDK: AWS Compliance Auditor with No Static Keys  
+**DSB Capstone Project**
 
-- AWS Certified Cloud Practitioner
-- Azure
-- DevOps Engineering
-- DevSecOps Practices
-- Cloud Security
-- Infrastructure as Code
+Built an AWS compliance auditing tool that inventories cloud resources, uses temporary credentials only, logs every API call, and exposes audit results through an API validated with Postman.
 
+**What it does**
+- Inventories AWS resources including EC2, EBS, S3, and Lambda
+- Uses GitHub Actions OIDC and IAM roles instead of static AWS keys
+- Provisions infrastructure with Terraform
+- Handles AWS API throttling with retry logic, pacing, and backoff
+- Emits structured JSON logs for every AWS API call
+- Stores compliance findings for review and reporting
+- Provides API endpoints for triggering audits and retrieving results
+
+**Problems solved**
+- Security Hub `AccessDeniedException`
+- S3 public access permission issues
+- DynamoDB GSI permission errors
+- AWS `Describe*` actions requiring `Resource: "*"`
+- OIDC and IAM bootstrapping for Terraform CI/CD
+
+**Skills demonstrated:** AWS, IAM, Terraform, Python, boto3, API security, compliance automation, GitHub Actions OIDC
+
+**Repo:** [audittrail-sdk](https://github.com/mdixon47/audittrail-sdk)  
+**Story:** [I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
 
 ---
 
-## Connect With Me
+### 3. Project Sentinel: Self-Healing Cloud Security Automation  
+**DSB Capstone Project**
 
-- GitHub: [https://github.com/mdixon47]
-- LinkedIn: [https://www.linkedin.com/in/malik-dixon/]
+Built a cloud-native security automation system that detects events, responds with serverless remediation, and provides visibility through logging, alerts, and dashboards.
+
+**What it does**
+- Detects security events using event-driven AWS monitoring
+- Responds automatically with serverless remediation workflows
+- Uses CloudTrail, EventBridge, Lambda, and CloudWatch for visibility and response
+- Applies governance through Infrastructure as Code and Policy as Code
+- Uses GitHub Actions to validate Terraform, scan for misconfigurations, and enforce checks before deployment
+
+**Key takeaway**
+
+Security is strongest when detection, remediation, observability, and governance work as one connected system. Detection without remediation creates noise. Remediation without observability creates blind spots. Governance without automation does not scale.
+
+**Skills demonstrated:** AWS, Terraform, GitHub Actions, CloudTrail, EventBridge, Lambda, CloudWatch, policy enforcement, DevSecOps automation
+
+**Repo:** [project-sentinel-terraform](https://github.com/mdixon47/project-sentinel-terraform)  
+**Story:** [Project Sentinel: Building a Self-Healing Cloud Security System](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-capstone-in-cloud-native-security-automation)
+
 ---
 
-## Profile Motto
+### 4. CloudMart Secure Web Assets Pipeline  
+**Level Up In Tech Academy Project**
 
-**Secure it. Automate it. Scale it.**
+Expanded a cloud support lab into a DevSecOps-style deployment pipeline for an e-commerce website experiencing broken product images and S3 `AccessDenied` errors.
 
----
+**What it does**
+- Deploys S3 static website infrastructure with AWS CloudFormation
+- Uses GitHub Actions for validation, deployment, and asset syncing
+- Adds security gates with `cfn-lint`, Checkov, and Snyk
+- Applies least-privilege IAM thinking to public website assets
+- Runs post-deployment checks to confirm the homepage and product images return HTTP 200
+- Includes monitoring plans for uptime, response status, deployment health, and error rate
+- Documents security exceptions, validation reports, and troubleshooting evidence
 
-## Active Contributions
+**Key takeaway**
 
-Proud to share that I’m now an active contributor to The DevSec Blueprint (DSB). Excited to keep learning, building, improving, and contributing meaningful work to the project.
+A cloud engineer does not just fix access issues. A cloud engineer designs a system that prevents the same access problem from coming back.
 
-**Repo:**[The DevSec Blueprint (DSB)](https://github.com/devsecblueprint/devsecblueprint?tab=readme-ov-file)
+**Skills demonstrated:** AWS S3, CloudFormation, GitHub Actions, IAM, Checkov, Snyk, cfn-lint, static website hosting, DevSecOps validation
+
+**Repo:** [aws-cloudmart-secure-web-assets](https://github.com/mdixon47/aws-cloudmart-secure-web-assets)  
+**Story:** [From S3 AccessDenied to DevSecOps](https://s3accessdeniedtodevsecops.hashnode.dev/from-s3-accessdenied-to-devsecops-building-the-cloudmart-secure-web-assets-pipeline)
