@@ -170,6 +170,19 @@ A cloud engineer does not just fix access issues. A cloud engineer designs a sys
 
 ---
 
+## GitHub Metrics
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mdixon47\&theme=vue)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mdixon47\&theme=vue)
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mdixon47\&theme=vue)
+
+![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mdixon47\&theme=vue)
+![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mdixon47\&theme=vue\&utcOffset=-5)
+
+---
+
+
 ## Active Contributions
 
 Proud to share that I’m now an active contributor to **The DevSec Blueprint (DSB)**. Excited to keep learning, building, improving, and contributing meaningful work to the project.
