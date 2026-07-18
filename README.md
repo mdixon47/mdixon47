@@ -1,19 +1,41 @@
 # Hi, I'm Malik Dixon 👋
 
-### Cloud Engineering | DevOps | DevSecOps
+### AI Systems | Cloud Engineering | DevOps | DevSecOps
 
-I build secure, scalable, and automated cloud solutions with a focus on reliability, security, and clean delivery pipelines. My interests sit at the intersection of **cloud infrastructure, CI/CD, infrastructure as code, observability, and security-first engineering**.
+I design and build secure, scalable, and automated technology systems across cloud infrastructure, DevSecOps, and applied artificial intelligence.
 
-I enjoy designing systems that are not just functional, but resilient, maintainable, and production-ready.
+My work sits at the intersection of:
+
+- Cloud architecture and infrastructure automation
+- Secure CI/CD and software delivery
+- AI agents, RAG, and workflow automation
+- Cloud security, governance, and compliance
+- Observability, reliability, and operational resilience
+
+I focus on building systems that are not merely functional, but secure, maintainable, observable, and production-ready.
+
+Secure it. Automate it. Observe it. Scale it.
 
 ---
 
 ## About Me
 
-- Cloud-focused engineer with interests in **AWS, Azure, DevOps, and DevSecOps**
-- Passionate about **automation, security, infrastructure as code, and platform reliability**
-- Interested in building solutions that improve **developer experience, governance, and deployment speed**
-- Continuously learning and exploring modern cloud-native tooling and best practices
+I am a U.S. Army veteran and technology professional with more than 25 years of experience learning, building, troubleshooting, and improving technical systems.
+
+My current focus combines traditional cloud engineering with emerging AI capabilities. I am particularly interested in how organizations can safely integrate AI agents, automation, retrieval systems, and intelligent workflows into real business operations.
+
+My approach emphasizes:
+
+- Security by design
+- Infrastructure as Code
+- Human oversight for high-impact AI actions
+- Least-privilege access
+- Repeatable deployment processes
+- Clear documentation
+- Continuous validation
+- Cost-aware cloud engineering
+
+I follow a Build–Verify–Destroy approach for cloud labs and experiments to validate solutions while controlling unnecessary infrastructure costs.
 
 ---
 
