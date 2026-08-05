@@ -22,7 +22,7 @@ Secure it. Automate it. Observe it. Scale it.
 
 I am a U.S. Army veteran and technology professional with more than 25 years of experience learning, building, troubleshooting, and improving technical systems.
 
-My current focus combines traditional cloud engineering with emerging AI capabilities. I am particularly interested in how organizations can safely integrate AI agents, automation, retrieval systems, and intelligent workflows into real business operations.
+My current focus combines traditional cloud engineering with emerging AI capabilities. I am particularly interested in how organizations can safely integrate AI agents, automation, retrieval syste[...]
 
 My approach emphasizes:
 
@@ -120,7 +120,7 @@ Built an AWS compliance auditing tool that inventories cloud resources, uses tem
 **Skills demonstrated:** AWS, IAM, Terraform, Python, boto3, API security, compliance automation, GitHub Actions OIDC
 
 **Repo:** [audittrail-sdk](https://github.com/mdixon47/audittrail-sdk)  
-**Story:** [I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys-and-aws-still-fought-me)
+**Story:** [I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-key[...]
 
 ---
 
@@ -138,12 +138,12 @@ Built a cloud-native security automation system that detects events, responds wi
 
 **Key takeaway**
 
-Security is strongest when detection, remediation, observability, and governance work as one connected system. Detection without remediation creates noise. Remediation without observability creates blind spots. Governance without automation does not scale.
+Security is strongest when detection, remediation, observability, and governance work as one connected system. Detection without remediation creates noise. Remediation without observability creat[...]
 
 **Skills demonstrated:** AWS, Terraform, GitHub Actions, CloudTrail, EventBridge, Lambda, CloudWatch, policy enforcement, DevSecOps automation
 
 **Repo:** [project-sentinel-terraform](https://github.com/mdixon47/project-sentinel-terraform)  
-**Story:** [Project Sentinel: Building a Self-Healing Cloud Security System](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-capstone-in-cloud-native-security-automation)
+**Story:** [Project Sentinel: Building a Self-Healing Cloud Security System](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-cap[...]
 
 ---
 
@@ -194,13 +194,17 @@ A cloud engineer does not just fix access issues. A cloud engineer designs a sys
 
 ## GitHub Metrics
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mdixon47\&theme=vue)
+> I removed third-party metric widgets that can be unreliable or rate-limited. For live contribution graphs and the most up-to-date statistics, view my GitHub profile directly:
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mdixon47\&theme=vue)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mdixon47\&theme=vue)
+[View live metrics on my GitHub profile](https://github.com/mdixon47)
 
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mdixon47\&theme=vue)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=mdixon47\&theme=vue\&utcOffset=-5)
+If you'd like me to re-add dashboard-style widgets I can do one of the following for you:
+
+- Add GitHub Readme Stats (https://github.com/anuraghazra/github-readme-stats) badges (note: this is a community service hosted on Vercel and may be rate-limited).
+- Add Shields.io badges for Followers, Repositories, and other stable counts.
+- Implement a self-hosted stats generator using a GitHub Action that creates SVGs under this repo (most reliable).
+
+Tell me which option you prefer and I will implement it.
 
 ---
 
