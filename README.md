@@ -194,41 +194,11 @@ A cloud engineer does not just fix access issues. A cloud engineer designs a sys
 
 ## GitHub Metrics
 
-### 📊 Available Widget Options
-
-I've implemented **all three** dashboard widget options for maximum flexibility. Choose what works best for your device:
-
----
-
-#### Option 1️⃣: GitHub Readme Stats (Community Service)
-Beautiful animated cards, hosted on Vercel (may be rate-limited):
-
-[![Malik's GitHub stats](https://github-readme-stats.vercel.app/api?username=mdixon47&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mdixon47&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-#### Option 2️⃣: Shields.io Badges (Reliable Static Badges)
-Lightweight, fast, and no rate limiting:
+[![Malik's GitHub stats](https://github-readme-stats.vercel.app/api?username=mdixon47&show_icons=true&theme=dark)](https://github.com/mdixon47)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mdixon47&layout=compact&theme=dark)](https://github.com/mdixon47)
 
 ![GitHub followers](https://img.shields.io/github/followers/mdixon47?style=social&label=Follow)
 ![GitHub User's stars](https://img.shields.io/github/stars/mdixon47?style=social)
-
----
-
-#### Option 3️⃣: Self-Hosted Stats Generator (Recommended ⭐)
-Automated daily updates via GitHub Actions — completely self-managed and reliable:
-
-**Real-Time Stats (Updated Daily):**
-
-![Followers](./stats/followers.svg)
-![Repositories](./stats/repos.svg)
-![Stars](./stats/stars.svg)
-![Forks](./stats/forks.svg)
-![Contributions](./stats/contributions.svg)
-
-**Detailed metrics available in:** [`stats/stats.json`](./stats/stats.json)
 
 ---
 
