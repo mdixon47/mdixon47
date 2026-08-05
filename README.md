@@ -22,7 +22,7 @@ Secure it. Automate it. Observe it. Scale it.
 
 I am a U.S. Army veteran and technology professional with more than 25 years of experience learning, building, troubleshooting, and improving technical systems.
 
-My current focus combines traditional cloud engineering with emerging AI capabilities. I am particularly interested in how organizations can safely integrate AI agents, automation, retrieval syste[...]
+My current focus combines traditional cloud engineering with emerging AI capabilities. I am particularly interested in how organizations can safely integrate AI agents, automation, retrieval systems, and autonomous workflows while maintaining security, human oversight, and operational control.
 
 My approach emphasizes:
 
@@ -120,7 +120,7 @@ Built an AWS compliance auditing tool that inventories cloud resources, uses tem
 **Skills demonstrated:** AWS, IAM, Terraform, Python, boto3, API security, compliance automation, GitHub Actions OIDC
 
 **Repo:** [audittrail-sdk](https://github.com/mdixon47/audittrail-sdk)  
-**Story:** [I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-key[...]
+**Story:** [I Built an AWS Compliance Auditor That Uses No Static Keys — and AWS Still Fought Me](https://mdixondevsecops2.hashnode.dev/i-built-an-aws-compliance-auditor-that-uses-no-static-keys)
 
 ---
 
@@ -138,12 +138,12 @@ Built a cloud-native security automation system that detects events, responds wi
 
 **Key takeaway**
 
-Security is strongest when detection, remediation, observability, and governance work as one connected system. Detection without remediation creates noise. Remediation without observability creat[...]
+Security is strongest when detection, remediation, observability, and governance work as one connected system. Detection without remediation creates noise. Remediation without observability creates blind spots.
 
 **Skills demonstrated:** AWS, Terraform, GitHub Actions, CloudTrail, EventBridge, Lambda, CloudWatch, policy enforcement, DevSecOps automation
 
 **Repo:** [project-sentinel-terraform](https://github.com/mdixon47/project-sentinel-terraform)  
-**Story:** [Project Sentinel: Building a Self-Healing Cloud Security System](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-cap[...]
+**Story:** [Project Sentinel: Building a Self-Healing Cloud Security System](https://projectsentineldevsecops.hashnode.dev/project-sentinel-building-a-self-healing-cloud-security-system-a-dsb-cap)
 
 ---
 
@@ -194,24 +194,64 @@ A cloud engineer does not just fix access issues. A cloud engineer designs a sys
 
 ## GitHub Metrics
 
-> I removed third-party metric widgets that can be unreliable or rate-limited. For live contribution graphs and the most up-to-date statistics, view my GitHub profile directly:
+### 📊 Available Widget Options
 
-[View live metrics on my GitHub profile](https://github.com/mdixon47)
-
-If you'd like me to re-add dashboard-style widgets I can do one of the following for you:
-
-- Add GitHub Readme Stats (https://github.com/anuraghazra/github-readme-stats) badges (note: this is a community service hosted on Vercel and may be rate-limited).
-- Add Shields.io badges for Followers, Repositories, and other stable counts.
-- Implement a self-hosted stats generator using a GitHub Action that creates SVGs under this repo (most reliable).
-
-Tell me which option you prefer and I will implement it.
+I've implemented **all three** dashboard widget options for maximum flexibility. Choose what works best for your device:
 
 ---
 
+#### Option 1️⃣: GitHub Readme Stats (Community Service)
+Beautiful animated cards, hosted on Vercel (may be rate-limited):
+
+[![Malik's GitHub stats](https://github-readme-stats.vercel.app/api?username=mdixon47&show_icons=true&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mdixon47&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+---
+
+#### Option 2️⃣: Shields.io Badges (Reliable Static Badges)
+Lightweight, fast, and no rate limiting:
+
+![GitHub followers](https://img.shields.io/github/followers/mdixon47?style=social&label=Follow)
+![GitHub User's stars](https://img.shields.io/github/stars/mdixon47?style=social)
+
+---
+
+#### Option 3️⃣: Self-Hosted Stats Generator (Recommended ⭐)
+Automated daily updates via GitHub Actions — completely self-managed and reliable:
+
+**Real-Time Stats (Updated Daily):**
+
+![Followers](./stats/followers.svg)
+![Repositories](./stats/repos.svg)
+![Stars](./stats/stars.svg)
+![Forks](./stats/forks.svg)
+![Contributions](./stats/contributions.svg)
+
+**Detailed metrics available in:** [`stats/stats.json`](./stats/stats.json)
+
+---
+
+### Why All Three?
+
+| Option | Pros | Cons | Best For |
+|--------|------|------|----------|
+| **Option 1** | Beautiful, animated | External dependency, rate-limited | Visual appeal |
+| **Option 2** | Fast, reliable, lightweight | Less dynamic | Quick badges |
+| **Option 3** | Zero dependencies, customizable | Self-hosted setup | Production-ready |
+
+**Self-hosted stats aligns with my philosophy:**
+- ✅ **Infrastructure as Code** — Shows I practice what I preach
+- ✅ **Zero Dependencies** — Always reliable, never rate-limited
+- ✅ **Production-Ready** — The DevOps/DevSecOps approach
+- ✅ **Customizable** — Easy to add new metrics
+- ✅ **Secure** — All data stays in your repository
+
+---
 
 ## Active Contributions
 
-Proud to share that I’m now an active contributor to **The DevSec Blueprint (DSB)**. Excited to keep learning, building, improving, and contributing meaningful work to the project.
+Proud to share that I'm now an active contributor to **The DevSec Blueprint (DSB)**. Excited to keep learning, building, improving, and contributing meaningful work to the project.
 
 **Repo:** [The DevSec Blueprint (DSB)](https://github.com/devsecblueprint/devsecblueprint?tab=readme-ov-file)
 
