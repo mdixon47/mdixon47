@@ -194,28 +194,17 @@ A cloud engineer does not just fix access issues. A cloud engineer designs a sys
 
 ## GitHub Metrics
 
-[![Malik's GitHub stats](https://github-readme-stats.vercel.app/api?username=mdixon47&show_icons=true&theme=dark)](https://github.com/mdixon47)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mdixon47&layout=compact&theme=dark)](https://github.com/mdixon47)
+<p align="center">
+  <img src="./profile/stats.svg" height="170" alt="Malik Dixon's GitHub stats" />
+  <img src="./profile/top-langs.svg" height="170" alt="Malik Dixon's top languages" />
+</p>
 
-![GitHub followers](https://img.shields.io/github/followers/mdixon47?style=social&label=Follow)
-![GitHub User's stars](https://img.shields.io/github/stars/mdixon47?style=social)
+<p align="center">
+  <img src="https://img.shields.io/github/followers/mdixon47?style=for-the-badge&label=Followers" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/mdixon47?affiliations=OWNER&style=for-the-badge&label=Stars" alt="GitHub stars" />
+</p>
 
----
-
-### Why All Three?
-
-| Option | Pros | Cons | Best For |
-|--------|------|------|----------|
-| **Option 1** | Beautiful, animated | External dependency, rate-limited | Visual appeal |
-| **Option 2** | Fast, reliable, lightweight | Less dynamic | Quick badges |
-| **Option 3** | Zero dependencies, customizable | Self-hosted setup | Production-ready |
-
-**Self-hosted stats aligns with my philosophy:**
-- ✅ **Infrastructure as Code** — Shows I practice what I preach
-- ✅ **Zero Dependencies** — Always reliable, never rate-limited
-- ✅ **Production-Ready** — The DevOps/DevSecOps approach
-- ✅ **Customizable** — Easy to add new metrics
-- ✅ **Secure** — All data stays in your repository
+> Metrics are generated daily by GitHub Actions and stored in this repository.
 
 ---
 
