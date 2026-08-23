@@ -1,0 +1,93 @@
+name: Update GitHub Profile Metrics
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/profile-metrics.yml
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: true
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate GitHub stats card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: stats
+          options: username=mdixon47&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&rank_icon=github
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2
+        with:
+          card: top-langs
+          options: username=mdixon47&layout=compact&langs_count=8&theme=github_dark&hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Update README metrics section
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
+
+          replacement = """## GitHub Metrics
+
+          <p align="center">
+            <img src="./profile/stats.svg" height="170" alt="Malik Dixon's GitHub stats" />
+            <img src="./profile/top-langs.svg" height="170" alt="Malik Dixon's top languages" />
+          </p>
+
+          <p align="center">
+            <img src="https://img.shields.io/github/followers/mdixon47?style=for-the-badge&label=Followers" alt="GitHub followers" />
+            <img src="https://img.shields.io/github/stars/mdixon47?affiliations=OWNER&style=for-the-badge&label=Stars" alt="GitHub stars" />
+          </p>
+
+          > Metrics are generated daily by GitHub Actions and stored in this repository.
+
+          ---
+
+          """
+
+          pattern = re.compile(r"## GitHub Metrics\n.*?(?=## Active Contributions)", re.S)
+          if not pattern.search(text):
+              raise SystemExit("GitHub Metrics section not found in README.md")
+
+          path.write_text(pattern.sub(replacement, text), encoding="utf-8")
+          PY
+
+      - name: Commit generated metrics
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md profile/stats.svg profile/top-langs.svg
+          if git diff --cached --quiet; then
+            echo "No metric changes to commit."
+            exit 0
+          fi
+          git commit -m "Update GitHub profile metrics"
+          git push
