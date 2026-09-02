@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Malik Dixon&#39;s GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 17, Total Commits  : 655, Total PRs: 36, Total Issues: 17, Contributed to (last year): 4</desc>
+        <desc id="descId">Total Stars Earned: 17, Total Commits  : 655, Total PRs: 37, Total Issues: 17, Contributed to (last year): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 148.0077463840497;
+        stroke-dashoffset: 147.4825921082423;
       }
     }
   
@@ -192,7 +192,7 @@
         x="224.01"
         y="12.5"
         data-testid="prs"
-      >36</text>
+      >37</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
