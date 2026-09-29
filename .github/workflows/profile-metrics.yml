@@ -72,7 +72,7 @@ jobs:
 
           """
 
-          pattern = re.compile(r"## GitHub Metrics\n.*?(?=## Active Contributions)", re.S)
+          pattern = re.compile(r"^## GitHub Metrics[ \t]*\r?\n.*?(?=^## [^\r\n]+[ \t]*$)", re.S | re.M)
           if not pattern.search(text):
               raise SystemExit("GitHub Metrics section not found in README.md")
 
