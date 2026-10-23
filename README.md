@@ -1,8 +1,10 @@
 # Hi, I'm Malik Dixon 👋
 
-### AI Workflow & Systems Builder | Secure AI Automation | AWS | DevSecOps | Cloud Security
+### AI Systems & Workflow Consultant | Secure AI Automation | AWS | DevSecOps | Cloud Security
 
-I design and build trusted, measurable business workflows using AI, cloud infrastructure, automation, and security-first engineering.
+I help businesses turn repetitive work into practical AI applications and automated workflows, with clear permissions, human approval for consequential actions, and evidence that the work was completed.
+
+I design and build these systems using AI agents, cloud infrastructure, automation, and security-first engineering.
 
 My work focuses on turning AI from an isolated tool into an operational system—one that can be evaluated, governed, observed, and safely connected to business processes.
 
@@ -28,13 +30,17 @@ I build systems that are secure, maintainable, observable, cost-aware, and desig
 
 ## Current Projects & Stages
 
+*Profile refreshed: October 23, 2026. Stages distinguish live products, working prototypes, and planned work.*
+
 | Project | Stage | Current Focus |
 | --- | --- | --- |
 | [**TraceLogicAI**](https://tracelogicai.com) | **Live Product · Active Development** | Comparing Plain, RAG, MCP, Agent, and Security-aware pipelines; evaluation scoring; trace evidence; remediation; runtime assurance; and agent permission/data-access governance. |
 | **CatchRailAI** | **Working Beta · Validation** | A purchase-order and RFQ safety net that detects, classifies, extracts, verifies, escalates, and tracks exceptions with human approval and audit history. |
 | **Agent Sandbox Runtime** | **Infrastructure Prototype** | Restricted AI-agent execution on AWS ECS Fargate using Terraform, Docker, network isolation, policy controls, observability, and an automated kill switch. Private build. |
 | **SEIR** | **Architecture & Terraform Implementation** | A serverless AWS security orchestration and response platform using deterministic controls, EventBridge orchestration, WAF telemetry, Cognito, and Amazon Bedrock for explanation—not authorization. |
-| **RevenuePilotAI** | **Functional Prototype** | A supervised multi-agent sales assistant with RAG, account research, deal analysis, outreach drafting, and approval-gated CRM updates. |
+| **RevenuePilotAI** | **Functional Prototype** | A supervisor coordinating five specialist agents for account research, product-knowledge RAG, deal analysis, outreach drafts, and human-approved CRM updates. |
+| [**Kubernetes Dev Lab**](https://github.com/mdixon47/k8s-dev-lab) | **Hands-on Lab & Learning Resources** | A reproducible kubeadm cluster with FastAPI/Postgres, an nginx edge, OPA Gatekeeper policies, security test routines, and Gateway API exercises using Envoy Gateway and Istio. |
+| [**n8n Local Automation Toolkit**](https://github.com/mdixon47/n8n-local) | **Active Development** | Docker-based workflow tooling with version-pinned installs, backup verification, restore safeguards, health checks, controlled upgrades, and a searchable template gallery. |
 | **ListenDirect** | **Concept & Architecture Validation** | A low-latency speech-to-speech agent with streaming, interruption handling, barge-in, and OpenAI Realtime-compatible interfaces. |
 | [**Project Sentinel**](https://github.com/mdixon47/project-sentinel-terraform) | **Completed · Maintained** | Event-driven AWS security detection, automated remediation, alerting, retry/DLQ handling, observability, and Terraform-based governance. |
 
@@ -48,6 +54,7 @@ A cloud-native platform for running AI and coding agents as governed workloads, 
 
 ## What I Build
 
+- Business workflows for inquiry intake, lead follow-up, inbox triage, content preparation, and operational handoffs
 - Secure AI agents, RAG systems, and MCP-enabled workflows
 - Evaluation pipelines and CI quality gates for AI applications
 - Human-approved automation for high-impact business actions
@@ -56,6 +63,26 @@ A cloud-native platform for running AI and coding agents as governed workloads, 
 - Agent identity, least-privilege permissions, and runtime policy enforcement
 - Monitoring, logging, cost tracking, and operational dashboards
 - Responsive applications, APIs, dashboards, and workflow tools
+
+---
+
+## Recent Practical Work
+
+### Kubernetes Security & Gateway Learning Lab
+
+[k8s-dev-lab](https://github.com/mdixon47/k8s-dev-lab) combines three Ubuntu 26.04 Kubernetes nodes with a separate nginx edge VM and a FastAPI/Postgres sample application. It includes a 30-lesson Kubernetes course and a ten-lesson Gateway API course comparing Envoy Gateway and Istio.
+
+The security exercises cover admission controls, RBAC, Pod Security, image scanning, network-policy behavior, and operational verification. Gatekeeper policies include privilege restrictions, non-root and resource-limit checks, plus an approved-registry exercise using Chainguard images. Some controls intentionally begin in warning mode so learners can observe violations before enforcing them.
+
+### Reliable Local Workflow Automation
+
+[n8n-local](https://github.com/mdixon47/n8n-local) adds operational safeguards around a self-hosted Docker installation: installer review and hashing, explicit version selection, consistent SQLite backups, snapshot verification before restore, and health checks after upgrades. Recent improvements include backup-growth reporting, controlled patch updates, and corrected snapshot ordering across macOS and Linux.
+
+The template gallery supports workflow discovery and import with missing-node warnings. The project also documents approval requirements for write-capable agent tools and treating retrieved email, web, and document content as untrusted input.
+
+### AI Architecture Comparison
+
+[mcp-rag-agent-demo](https://github.com/mdixon47/mcp-rag-agent-demo) provides a Nuxt 3, TypeScript, and Tailwind CSS demo platform for comparing MCP, RAG, and agent approaches. This complements my broader work on making AI architecture choices understandable and measurable.
 
 ---
 
@@ -128,7 +155,9 @@ Expanded an S3 troubleshooting lab into a repeatable DevSecOps deployment pipeli
 
 - **Deterministic controls for security decisions:** models may explain findings, but policy and authorization determine whether actions proceed.
 - **Verify before execution:** identity, delegated authority, purpose, resource, context, and current permission must be checked before a tool call or state-changing action.
-- **Human oversight based on reach:** higher-blast-radius actions require stronger approval, containment, and stop authority.
+- **Human oversight based on impact:** actions that move money, issue refunds, change customer obligations, or make external commitments need a clear human approval boundary.
+- **Approval must match the action:** record who approved what, preserve the approved payload, and check that the authorization still applies when execution begins.
+- **Verify outcomes before retrying:** a workflow timeout does not prove an action failed. Check the destination system before retrying a write, and keep uncertain outcomes visible.
 - **Evidence across the execution chain:** prompt → plan → tool call → command → system activity → result → verification.
 - **Build–Verify–Destroy:** cloud labs are validated and then removed to control cost and reduce unnecessary exposure.
 
@@ -139,6 +168,9 @@ Expanded an S3 troubleshooting lab into a repeatable DevSecOps deployment pipeli
 - Turning AI into trusted, measurable business workflows
 - Building evaluation, remediation, and governance systems for AI applications
 - Securing agent tools, data access, delegated authority, and runtime execution
+- Making workflow handoffs explicit: what happened, who owns the next step, and how completion is verified
+- Testing Kubernetes admission policies, approved image sources, and gateway behavior in reproducible labs
+- Improving n8n workflow reliability through backup drills, health checks, and controlled updates
 - Expanding production-style AWS, DevOps, and DevSecOps implementations
 - Preparing for AWS AI Practitioner and AWS Developer Associate certifications
 
@@ -162,7 +194,7 @@ Expanded an S3 troubleshooting lab into a repeatable DevSecOps deployment pipeli
 
 ## Community & Contributions
 
-I contribute to **The DevSec Blueprint (DSB)** and continue building practical cloud security and DevSecOps projects through community-based learning and collaboration.
+I contribute to **The DevSec Blueprint (DSB)**, with a focus on practical walkthroughs, technical content, cloud security, and DevSecOps learning. My lab documentation emphasizes prerequisites, bounded hands-on exercises, expected results, and verification.
 
 **Community repository:** [The DevSec Blueprint](https://github.com/devsecblueprint/devsecblueprint?tab=readme-ov-file)
 
