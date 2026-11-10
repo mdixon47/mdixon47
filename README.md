@@ -50,12 +50,39 @@ Each project record links its documented scope, evidence, and limitations. Const
 
 ## Technologies I work with
 
+### Coding
+
+![Python](https://img.shields.io/badge/Python-C2F4B5?style=for-the-badge&logo=python&logoColor=0D1212)
+![TypeScript](https://img.shields.io/badge/TypeScript-C2F4B5?style=for-the-badge&logo=typescript&logoColor=0D1212)
+![Nuxt](https://img.shields.io/badge/Nuxt-C2F4B5?style=for-the-badge&logo=nuxt&logoColor=0D1212)
+![Next.js](https://img.shields.io/badge/Next.js-C2F4B5?style=for-the-badge&logo=nextdotjs&logoColor=0D1212)
+![FastAPI](https://img.shields.io/badge/FastAPI-C2F4B5?style=for-the-badge&logo=fastapi&logoColor=0D1212)
+
+### Cloud & infrastructure
+
+![AWS](https://img.shields.io/badge/AWS-0D1212?style=for-the-badge)
+![Azure](https://img.shields.io/badge/Azure-0D1212?style=for-the-badge)
+![Terraform](https://img.shields.io/badge/Terraform-0D1212?style=for-the-badge&logo=terraform&logoColor=C2F4B5)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-0D1212?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-0D1212?style=for-the-badge&logo=docker&logoColor=C2F4B5)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-0D1212?style=for-the-badge&logo=kubernetes&logoColor=C2F4B5)
+
+### Security & delivery
+
+![DevSecOps](https://img.shields.io/badge/DevSecOps-C2F4B5?style=for-the-badge)
+![IAM](https://img.shields.io/badge/IAM-C2F4B5?style=for-the-badge)
+![OIDC](https://img.shields.io/badge/OIDC-C2F4B5?style=for-the-badge&logo=openid&logoColor=0D1212)
+![OPA](https://img.shields.io/badge/OPA-C2F4B5?style=for-the-badge)
+![Prowler](https://img.shields.io/badge/Prowler-C2F4B5?style=for-the-badge)
+![Trivy](https://img.shields.io/badge/Trivy-C2F4B5?style=for-the-badge)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-C2F4B5?style=for-the-badge&logo=githubactions&logoColor=0D1212)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-C2F4B5?style=for-the-badge)
+
+### AI workflows & observability
+
 | Area | Technologies |
 | --- | --- |
 | AI & workflows | AI agents · RAG · MCP · Claude · ChromaDB · n8n |
-| Applications | Python · TypeScript · Nuxt · Next.js · FastAPI |
-| Cloud & infrastructure | AWS · Azure · Terraform · CloudFormation · Docker · Kubernetes |
-| Delivery & security | GitHub Actions · CI/CD · IAM · OIDC · OPA · Prowler · Trivy |
 | Evidence & observability | CloudTrail · CloudWatch · EventBridge · Execution traces · Evaluation pipelines |
 
 ## Community & practical walkthroughs
