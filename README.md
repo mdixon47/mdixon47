@@ -28,6 +28,14 @@ For small B2B service teams, I offer a proposed pilot around one inquiry workflo
 
 [Explore the workflow pilot](https://www.malikwdixon.com/services/workflow-assessment/)
 
+## CyberGlobal Boston partnership
+
+I partner with **[CyberGlobal Boston](https://cybergl.com/massachusetts/boston/)**, working with **Jarrod Aldom**, to connect businesses with broader cybersecurity expertise alongside my AI agent and MCP security assessments, cloud engineering, and accountable workflow services.
+
+When an engagement calls for additional support, I can coordinate introductions for penetration testing, application and cloud security, security monitoring, incident response, and governance, risk, and compliance. We start with business priorities, define the scope, and identify the right specialists to involve.
+
+[Discuss your AI, cloud, or cybersecurity needs](https://www.malikwdixon.com/contact/)
+
 ## Featured engineering work
 
 | Project | Stage | Engineering focus |
